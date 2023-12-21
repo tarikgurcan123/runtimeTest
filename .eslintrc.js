@@ -36,14 +36,7 @@ module.exports = {
     'guard-for-in': 'off',
     'vue/multi-word-component-names': 'off',
     'no-prototype-builtins': 'off',
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        printWidth: 160,
-        trailingComma: 'all',
-      },
-    ],
+     'prettier/prettier': 'warn',
   },
   settings: {
     'import/resolver': {
